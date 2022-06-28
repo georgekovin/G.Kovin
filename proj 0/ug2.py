@@ -7,7 +7,7 @@ def random_predict(number:int=1) -> int:
         number (int, optional): Загаданное число. Defaults to 1.
 
     Returns:
-        int: Число попыток
+        int: Число попыток 
     """
     count = 0
 
@@ -42,5 +42,5 @@ def score_game(random_predict) -> int:
     print(f'Ваш алгоритм угадывает число в среднем за: {score} попыток')
     return(score)
 
-# RUN
+# RUN не ран
 score_game(random_predict)
