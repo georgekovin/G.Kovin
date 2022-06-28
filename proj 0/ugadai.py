@@ -8,11 +8,11 @@ count = 0
 
 while True:
     count += 1
-    pred = int(input('guess '))
+    pred = int(input('guess ')) 
     if pred > number:
         print('less')
     elif pred < number:
         print('more')
     else:
         print('yeah')
-        break #real breal
+        break #real br 
